@@ -18,7 +18,7 @@
     "zod",
     "mvc"
   ],
-  "author": "Renan Cavichi",
+  "author": "Enzo Souza",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/renancavichi/api-bke-express-2sem2024/issues"
