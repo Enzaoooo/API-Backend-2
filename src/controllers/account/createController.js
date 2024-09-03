@@ -6,14 +6,13 @@ const createController = async (req, res) => {
 
     if(!result)
         return res.status(401).json({
-            error: "erro ao criar conta"
-    })
+            error: "Erro ao criar conta!"
+        })
 
-    res.json({
-        success: "Conta criada com sucesso",
+    return res.json({
+        success: "Conta criada com sucesso!",
         account: result
     })
-
 }
 
 export default createController
